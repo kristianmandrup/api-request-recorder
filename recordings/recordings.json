@@ -1,0 +1,17 @@
+{
+  "success:vidispine::api.group.searchGroups": {
+    "<sessionCtx uniquely stringified>": {
+      "<data label>:<ctx hashkey>": {
+        "response": "<response>"
+      }
+    }
+  },
+  "error:vidispine::api.group.searchGroups": {
+    "<>": {
+      "<ctx hashkey>": {
+        "response": "<response>",
+        "statusCode": 403
+      }
+    }
+  }
+}
